@@ -9,6 +9,6 @@ from flask import Flask
 app = Flask(__name__)
 @app.route('/')
 def hello() -> str:
-    return 'Привет! Пока что это будет Flask!, Django может завтра....'
+    return 'Привет! Пока что это будет Flask!, Django может завтра или сегодня.'
 
 app.run(host='127.0.0.1', port=8080)
