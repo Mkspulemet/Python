@@ -26,4 +26,4 @@ def entry_page() -> 'html':
                            the_title='Welcome to search4letters on the web!')
 
 app.run(host='127.0.0.1', port=8080)
-'''app.run(debug = True)'''
+app.run(debug = True)
